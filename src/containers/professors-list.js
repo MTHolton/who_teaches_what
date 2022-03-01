@@ -6,12 +6,17 @@ import { selectProfessor } from "../actions/index";
 
 class ProfessorList extends Component {
 	renderList() {
-		return this.props.professors.map((professor, index) => {
+		return this.props.professors.map((professor) => {
+			let className =
+				this.props.selectedProfessor &&
+				this.props.selectedProfessor.name === professor.name
+					? "list-group-item selected-item-mine"
+					: "list-group-item";
 			return (
 				<li
 					onClick={() => this.props.selectProfessor(professor)}
-					key={index}
-					className="list-group-item"
+					key={professor.name}
+					className={className}
 				>
 					<h5>{professor.name}</h5>
 					<div>Credit Hours: {professor.numberOfCreditHours}</div>
@@ -29,6 +34,7 @@ class ProfessorList extends Component {
 function mapStateToProps(state) {
 	return {
 		professors: state.professors,
+		selectedProfessor: state.selectedProfessor,
 	};
 }
 

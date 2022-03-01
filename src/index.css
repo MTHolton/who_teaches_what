@@ -13,5 +13,6 @@ code {
 }
 
 .selected-item-mine {
-	border: steelblue;
+	background-color: lightgray;
+	border: tomato;
 }
