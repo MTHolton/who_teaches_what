@@ -1,0 +1,142 @@
+export default function () {
+	return [
+		{
+			code: "1000",
+			name: "Introduction to Microcomputers and Applications",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "1010",
+			name: "Algorithmic Problem Solving",
+			creditHours: 3,
+			nrOfSections: 3,
+		},
+		{
+			code: "1301",
+			name: "Principles of Programming I",
+			creditHours: 4,
+			nrOfSections: 3,
+		},
+		{
+			code: "1302",
+			name: "Principles of Programming II",
+			creditHours: 4,
+			nrOfSections: 2,
+		},
+		{
+			code: "1340",
+			name: "Computing for Scientists",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "2620",
+			name: "Discrete Structures",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "3101",
+			name: "Computer Organization",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "3300",
+			name: "UNIX Programming",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "3335",
+			name: "The C Programming Language",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "3340",
+			name: "Web Programming",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "3410",
+			name: "Data Structures",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "3520",
+			name: "Algorithms",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4121",
+			name: "Data Communications and Networks I",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4321",
+			name: "Software Engineering I",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4330",
+			name: "Theory of Programming Languages",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4345",
+			name: "Operating Systems",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4500",
+			name: "Formal Languages and Automata Theory",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4721",
+			name: "Database Design I",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4820",
+			name: "Artificial Intelligence",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4830",
+			name: "Computer Graphics",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4840",
+			name: "Full Stack Web Programming",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4900",
+			name: "Senior Seminar",
+			creditHours: 3,
+			nrOfSections: 1,
+		},
+		{
+			code: "4990",
+			name: "Topics in Computer Science",
+			creditHours: 3,
+			nrOfSections: 2,
+		},
+	];
+}
