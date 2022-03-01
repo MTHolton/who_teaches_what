@@ -13,7 +13,10 @@ class CourseList extends Component {
 					key={index}
 					className="list-group-item"
 				>
-					{course.name}
+					<h5>{course.courseName}</h5>
+					<div>Course Number: {course.courseNumber}</div>
+					<div>Credit Hours: {course.creditHours}</div>
+					<div>Number Of Sections: {course.numberOfSections}</div>
 				</li>
 			);
 		});

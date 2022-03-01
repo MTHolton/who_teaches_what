@@ -4,3 +4,10 @@ export function selectCourse(course) {
 		payload: course,
 	};
 }
+
+export function selectProfessor(professor) {
+	return {
+		type: "PROFESSOR_SELECTED",
+		payload: professor,
+	};
+}
